@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmscriptenSDLAppTemplate", "projects\EmscriptenSDLAppTemplate\EmscriptenSDLAppTemplate.vcxproj", "{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmscriptenSDL2AppTemplate", "projects\EmscriptenSDL2AppTemplate\EmscriptenSDL2AppTemplate.vcxproj", "{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmscriptenConsoleAppTemplate", "projects\EmscriptenConsoleAppTemplate\EmscriptenConsoleAppTemplate.vcxproj", "{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Emscripten = Debug|Emscripten
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Emscripten = Release|Emscripten
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Debug|Emscripten.ActiveCfg = Debug|Emscripten
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Debug|Emscripten.Build.0 = Debug|Emscripten
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Debug|x64.ActiveCfg = Debug|x64
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Debug|x64.Build.0 = Debug|x64
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Debug|x86.Build.0 = Debug|Win32
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Release|Emscripten.ActiveCfg = Release|Emscripten
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Release|Emscripten.Build.0 = Release|Emscripten
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Release|x64.ActiveCfg = Release|x64
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Release|x64.Build.0 = Release|x64
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Release|x86.ActiveCfg = Release|Win32
+		{7FE35A6E-3C42-4208-874C-92ADE54CE2C0}.Release|x86.Build.0 = Release|Win32
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Debug|Emscripten.ActiveCfg = Debug|Emscripten
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Debug|Emscripten.Build.0 = Debug|Emscripten
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Debug|x64.ActiveCfg = Debug|x64
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Debug|x64.Build.0 = Debug|x64
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Debug|x86.Build.0 = Debug|Win32
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Release|Emscripten.ActiveCfg = Release|Emscripten
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Release|Emscripten.Build.0 = Release|Emscripten
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Release|x64.ActiveCfg = Release|x64
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Release|x64.Build.0 = Release|x64
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Release|x86.ActiveCfg = Release|Win32
+		{FB43FE22-8F97-4A3E-9805-75A8EFA1B8F2}.Release|x86.Build.0 = Release|Win32
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Debug|Emscripten.ActiveCfg = Debug|Emscripten
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Debug|Emscripten.Build.0 = Debug|Emscripten
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Debug|x64.ActiveCfg = Debug|x64
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Debug|x64.Build.0 = Debug|x64
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Debug|x86.Build.0 = Debug|Win32
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Release|Emscripten.ActiveCfg = Release|Emscripten
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Release|Emscripten.Build.0 = Release|Emscripten
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Release|x64.ActiveCfg = Release|x64
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Release|x64.Build.0 = Release|x64
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Release|x86.ActiveCfg = Release|Win32
+		{AB2384D6-FD7A-42A1-8D91-D4747147EEEC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
